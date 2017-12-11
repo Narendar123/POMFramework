@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.homepage.TS003_TestLoginThroughDataProvider">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+          <include name="verifyLoginWithDifferentRecords" invocation-numbers="3 6"/>
+        </methods>
+      </class> <!-- com.homepage.TS003_TestLoginThroughDataProvider -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
